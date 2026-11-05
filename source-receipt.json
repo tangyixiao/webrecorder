@@ -2,10 +2,33 @@
   "repo": "tangyixiao/webrecorder",
   "sourceBranch": "main",
   "sourceCommit": "bb8e271a82b9e093eb609e6050a3a0c9da90dc49",
+  "designVersion": 3,
+  "direction": {
+    "visualConcept": "深海青、海盐白与橙红录制标记的网页保存仓：首屏是一枚有厚度的 WACZ 档案匣和旁边展开的单域名链接图，主要动作是阅读配置与提供档案，而不是假的“开始录制”。事实边界：single-domain mirror starter，需用户自行提供 WACZ；介绍页不声称已镜像任何站点。",
+    "layout": "technical",
+    "palette": {
+      "light": {
+        "bg": "#D3E5E3",
+        "surface": "#EDF2E8",
+        "ink": "#203F41",
+        "muted": "#4a686c",
+        "accent": "#256d70"
+      },
+      "dark": {
+        "bg": "#132729",
+        "surface": "#203D40",
+        "ink": "#E2F1E8",
+        "muted": "#9abfc0",
+        "accent": "#8ad0cb"
+      }
+    },
+    "threeConcept": "Three.js 创建带 WACZ 铭牌的深青磁带式档案匣，旁边的纸带只写归档→配置→部署三阶段；明确为概念物件，不暗示 WACZ 的真实物理介质或现有录制任务。",
+    "distinctiveInteraction": "用户拉开匣盖依次查看准备 WACZ、配置单域名、部署 Pages 的真实文档链接；未提供档案时保持说明态，不放模拟加载或虚构回放。"
+  },
   "media": [],
   "skills": [
     "baoyu-design",
     "design-taste-frontend"
   ],
-  "design": "content-first source/product/photography; no rejected template or faux 3D"
+  "flagshipModel": null
 }
