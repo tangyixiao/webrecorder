@@ -1,0 +1,136 @@
+{
+  "meta": {
+    "description": "Replay a single-domain website from a WACZ archive. Readers can enter the mirror from a deep link as well as from the original home path."
+  },
+  "pages": {
+    "home": {
+      "title": "Preserve a site's original paths · {project}"
+    },
+    "features": {
+      "title": "Features · {project}",
+      "description": "Replay a single-domain website from a WACZ archive. Readers can enter the mirror from a deep link as well as from the original home path."
+    },
+    "download": {
+      "title": "Get started · {project}",
+      "description": "Capture the site with Browsertrix or ArchiveWeb.page and check that the file is accessible."
+    },
+    "community": {
+      "title": "Community · {project}",
+      "description": "Find usage guidance, follow discussions and review changes to this project."
+    }
+  },
+  "nav": {
+    "home": "Home",
+    "features": "Features",
+    "download": "Get started",
+    "community": "Community"
+  },
+  "ui": {
+    "skip_link": "Skip to main content",
+    "navigation": "Main navigation",
+    "open_navigation": "Open navigation",
+    "close_navigation": "Close navigation",
+    "language": "Choose language",
+    "theme": "Choose theme",
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System",
+    "platforms": "Supported platforms",
+    "github": "GitHub",
+    "view_image": "View full illustration",
+    "feature_more": "Explore features",
+    "download": "See the configuration example",
+    "release_notes": "Source repository",
+    "documentation": "Documentation",
+    "source": "Source repository",
+    "illustration": "First steps",
+    "license": "AGPL-3.0"
+  },
+  "hero": {
+    "title": [
+      "Preserve a site's original paths"
+    ],
+    "description": [
+      "Replay a single-domain website from a WACZ archive. Readers can enter the mirror from a deep link as well as from the original home path."
+    ],
+    "primary_action": "See the configuration example",
+    "secondary_action": "Explore features"
+  },
+  "preview": {
+    "caption": "First steps",
+    "tabs": [
+      {
+        "label": "Get started",
+        "icon": "book"
+      }
+    ],
+    "items": [
+      {
+        "title": "Prepare a WACZ",
+        "description": "Capture the site with Browsertrix or ArchiveWeb.page and check that the file is accessible.",
+        "icon": "book"
+      },
+      {
+        "title": "Configure playback",
+        "description": "Edit init.js in your copy. Test both the home page and one internal path on a local HTTP server.",
+        "icon": "link"
+      }
+    ]
+  },
+  "features": {
+    "title": "Project features",
+    "groups": [
+      {
+        "title": "Configure an archive",
+        "description": "Point init.js at the WACZ and original origin, with an optional capture timestamp.",
+        "detail": "",
+        "icon": "layers"
+      },
+      {
+        "title": "Replay deep links",
+        "description": "The index and 404 handlers resolve page paths inside the archive, allowing existing links to reach their captured content.",
+        "detail": "",
+        "icon": "book"
+      }
+    ]
+  },
+  "getting_started": {
+    "title": "Get started · {project}",
+    "steps": [
+      {
+        "title": "Prepare a WACZ",
+        "description": "Capture the site with Browsertrix or ArchiveWeb.page and check that the file is accessible.",
+        "icon": "book"
+      },
+      {
+        "title": "Configure playback",
+        "description": "Edit init.js in your copy. Test both the home page and one internal path on a local HTTP server.",
+        "icon": "link"
+      }
+    ]
+  },
+  "community": {
+    "title": "Community · {project}",
+    "description": "Find usage guidance, follow discussions and review changes to this project.",
+    "links": [
+      {
+        "label": "Help and feedback",
+        "description": "Browse existing reports or describe a reproducible problem.",
+        "icon": "book"
+      },
+      {
+        "label": "Source repository",
+        "description": "Find the project and its maintenance links.",
+        "icon": "link"
+      },
+      {
+        "label": "Review changes",
+        "description": "Review open pull requests or prepare a contribution.",
+        "icon": "code"
+      }
+    ]
+  },
+  "footer": {
+    "copyright": "{copyright}"
+  }
+}
